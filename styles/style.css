@@ -14,9 +14,11 @@ body {
 html {
     scroll-behavior: smooth;
 }
-li{
+
+li {
     list-style: none;
 }
+
 :root {
     --color-background: #ffffff;
     --color-background-image: #b4d0e7;
@@ -36,8 +38,11 @@ li{
 
 /* PAGE LAYOUT */
 body {
-    width: 100vw;
+    
 
+}
+section{
+    width: 200vh;
 }
 
 .main {
@@ -66,21 +71,25 @@ body {
 h1 {
     font-size: 3em;
 }
-h2{
+
+h2 {
     padding: 30px 0;
 }
+
 a {
     color: var(--color-background-footer);
 }
-.Account{
+
+.Account {
     margin-right: 170px;
 }
 
-.first-bullet{
+.first-bullet {
     padding: 15px 0;
     font-size: 15px;
 }
-.second-bullet{
+
+.second-bullet {
     padding: 15px 0;
     font-size: 15px;
 }
@@ -88,50 +97,84 @@ a {
 input[type=radio]:checked {
     accent-color: black;
 }
-.free-trial{
+
+.free-trial {
     margin: -30px 0;
     padding-left: 20px;
 }
-.text-align{
+
+.text-align {
     padding-left: 10px;
 }
-.text-align-list{
+
+.text-align-list {
     padding-left: 20px;
 }
-.fa-circle-info{
+
+.fa-circle-info {
     font-size: 10px;
 }
-input[type=text], select, input[type=email], [type=password]{
+
+input[type=text],
+select,
+input[type=email],
+[type=password] {
     width: 100%;
     padding: 15px 5px;
     margin: 8px 0;
     border: 1px solid #ccc;
-  }
-.inputs{
+}
+
+.inputs {
     gap: 30px;
-  }
-.button{
+}
+
+.button {
     width: 60%;
     margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 10px 5px;  
+    padding: 10px 5px;
 }
-.google-logo{
+
+.google-logo {
     object-fit: contain;
     width: 7%;
 }
-.g-text{
+
+.g-text {
     padding-left: 10px;
 }
-
-
-
+hr{
+    margin: 50px 0;
+    color: #ccc;
+}
+input[type=checkbox]{
+    width: 20px;
+    height: 40px;
+}
+input[type=checkbox]:checked {
+    accent-color: black;
+}
+.termini{
+    padding: 40px 0;
+}
+.company{
+    margin: 80px 0;
+}
+.termini-privacy{
+    padding-right: 80px;
+}
+.condizioni a{
+    text-decoration: none;
+}
 /* COLOR */
 .green {
     color: var(--color-bg-designit);
 }
-
+.grey{
+    color: rgba(128, 128, 128, 0.561);
+}
 /* ASIDE UTILITY */
 aside {
     position: fixed;
@@ -151,12 +194,15 @@ aside {
 .f-wrap {
     flex-wrap: wrap;
 }
-.j-space-b{
+
+.j-space-b {
     justify-content: space-between;
 }
-.j-content-c{
+
+.j-content-c {
     justify-content: center;
 }
+
 /* CONTAINER */
 .container {
     max-width: 1200px;
@@ -166,7 +212,6 @@ aside {
 .small-container1 {
     max-width: 1000px;
     margin: 0 auto;
-    height: 100vh;
     width: calc(100% / 2);
     background-color: white;
 }
