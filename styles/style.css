@@ -110,11 +110,23 @@ input[type=text], select, input[type=email], [type=password]{
 .inputs{
     gap: 30px;
   }
+.button{
+    width: 60%;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 5px;  
+}
+.google-logo{
+    object-fit: contain;
+    width: 7%;
+}
+.g-text{
+    padding-left: 10px;
+}
 
 
 
-
-  
 /* COLOR */
 .green {
     color: var(--color-bg-designit);
@@ -141,6 +153,9 @@ aside {
 }
 .j-space-b{
     justify-content: space-between;
+}
+.j-content-c{
+    justify-content: center;
 }
 /* CONTAINER */
 .container {
