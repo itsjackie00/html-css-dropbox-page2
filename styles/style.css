@@ -59,7 +59,8 @@ body {
 
 /* SECTION 1 */
 .first-section {
-    padding: 100px 200px;
+    padding-top: 90px;
+    padding-left: 210px;
 }
 
 h1 {
@@ -71,9 +72,17 @@ h2{
 a {
     color: var(--color-background-footer);
 }
+.Account{
+    margin-right: 170px;
+}
 
-.first-section h1{
-    padding: 40px 0;
+.first-bullet{
+    padding: 15px 0;
+    font-size: 15px;
+}
+.second-bullet{
+    padding: 15px 0;
+    font-size: 15px;
 }
 
 input[type=radio]:checked {
@@ -92,6 +101,20 @@ input[type=radio]:checked {
 .fa-circle-info{
     font-size: 10px;
 }
+input[type=text], select, input[type=email], [type=password]{
+    width: 100%;
+    padding: 15px 5px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+  }
+.inputs{
+    gap: 30px;
+  }
+
+
+
+
+  
 /* COLOR */
 .green {
     color: var(--color-bg-designit);
@@ -116,7 +139,9 @@ aside {
 .f-wrap {
     flex-wrap: wrap;
 }
-
+.j-space-b{
+    justify-content: space-between;
+}
 /* CONTAINER */
 .container {
     max-width: 1200px;
